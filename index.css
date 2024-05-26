@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins';
+}
+
+.mainlogo{
+    width: 80px;
+}
+
+.flexbox{
+    display:flex;
+    margin: 60px;
+    align-items: center;
+    gap: 60px;
+}
+
+.textbox{
+    border: 1px solid #000000;
+    border-radius: 90px;
+    padding: 1px 40px;
+    width: 1040px;
+    height: 56px;
+}
+
+.ptext{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ptag{
+    margin: 60px;
+    font-weight: 600;
+    color: #62729D;
+    font-size: 32px;
+    gap: 15px;
+}
+
+.navtext{
+    display:flex;
+    margin: 0px 158px;
+    gap: 205px;
+}
+
+.navtext p{
+    font-weight: 600;
+}
+
+.navtext .navactive{
+    color: #ff0500;
+}
+
+
+.button{
+    text-decoration: none;
+    background: #ff0500;
+    color: white;
+    padding:0px 8px;
+    border-radius: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
