@@ -1,15 +1,17 @@
 .box{
-    margin: 259px 440px;
+    margin-top: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #000000;
     border-radius: 90px;
     padding: 53px 159px;
     width: 632px;
-    height: 508px;
 }
 .sub{
     border: 1px solid #000000;
     margin-top: 20px;
-    margin-left: -50px;
     border-radius: 5px;
     height:40px;
     width:400px;
@@ -19,19 +21,20 @@
 }
 
 .buton{
+    text-decoration: none;
     border: 1px solid #000000;
     border-radius: 360px;
     height:40px;
     width:400px;
-    padding: 1px 134px;
+    padding: 1px 150px;
     background-color: #000000;
-    margin-top: 30px;
-    margin-left: -50px;
+    font-size: 32px; 
+    font-weight: 600;
+    color: #EFEFEF;
 }
 
 .button{
     color: red;
     font-weight: 600;
-    margin-left: 230px;
     margin-bottom: 50px;
 }

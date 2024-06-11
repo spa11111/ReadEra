@@ -11,31 +11,30 @@
     <link href = "sign.css" rel="stylesheet">
 </head>
 
-  <body style="font-family: Poppins;">
-    <div class="container-full">
-      <div class="box">
-        <img src="images/log.png">
-        <div class="sub">
-          <p>Create your username</p>
-        </div>
-
-        <div class="sub">
-          <p>Create your password</p>
-        </div>
-
-        <div class="sub">
-          <p>Enter your Gmail ID</p>
+<body style="font-family: Poppins;">
+  <div class="container-full" style="display: flex; flex-direction: column; justify-content:center; align-items: center;">
+    <div class="box">
+      <img src="images/log.png">
+      <div>
+          <input type="username" class="sub" placeholder="Create your username">
         </div>
 
         <div>
-        <p class="plog" style="margin-left:25px; margin-top: 15px; margin-bottom: -25px;">Do not have an account?</p>
-        <a href = "#" class = "button">Login</a>
+          <input type="password" class="sub" placeholder="Create your password">
         </div>
 
-        <div class="buton">
-          <p class="but" style="color: white; font-size: 32px; font-weight: 600;">CREATE</p>
+        <div>
+          <input type="mail" class="sub" placeholder="Enter your Gmail ID">
         </div>
-      </div>
+
+        <div class="rip" style="display: flex; gap: 1px;">
+          <p class="plog" style="margin-top: 15px; margin-bottom: 30px;">Already have an account?</p>
+          <a href = "#" class = "button" style="margin-top: 15px; margin-bottom: 30px;">Login</a>
+          </div>
+  
+          
+          <a href = "#" class = "buton">CREATE</a>
+        </div>
 
     </div>
   </body>
