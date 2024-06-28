@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .story-details {
+            display: flex;
+            align-items: flex-start;
+        }
+        .story-details img {
+            width: 150px;
+            height: auto;
+        }
+        .details-form {
+            margin-left: 20px;
+            width: 100%;
+        }
+        .nav-tabs .nav-link {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="story-details">
+        <img src="https://via.placeholder.com/150" alt="Book Cover">
+        <div class="details-form">
+            <ul class="nav nav-tabs" id="storyDetailsTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="story-details-tab" data-toggle="tab" href="#story-details" role="tab" aria-controls="story-details" aria-selected="true">Story details</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="table-of-contents-tab" data-toggle="tab" href="#table-of-contents" role="tab" aria-controls="table-of-contents" aria-selected="false">Table of Contents</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="storyDetailsTabContent">
+                <div class="tab-pane fade show active" id="story-details" role="tabpanel" aria-labelledby="story-details-tab">
+                    <form>
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <input type="text" class="form-control" id="title">
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <textarea class="form-control" id="description" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <input type="text" class="form-control" id="category">
+                        </div>
+                        <div class="form-group">
+                            <label for="tags">Tags</label>
+                            <input type="text" class="form-control" id="tags">
+                        </div>
+                        <div class="form-group">
+                            <label for="language">Language</label>
+                            <input type="text" class="form-control" id="language">
+                        </div>
+                        <div class="form-group">
+                            <label for="copyright">Copyright</label>
+                            <input type="text" class="form-control" id="copyright">
+                        </div>
+                        <div class="form-group">
+                            <label for="mature-status">Mature status</label>
+                            <input type="text" class="form-control" id="mature-status">
+                        </div>
+                        <div class="form-group">
+                            <label for="story-status">Story status</label>
+                            <input type="text" class="form-control" id="story-status">
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="table-of-contents" role="tabpanel" aria-labelledby="table-of-contents-tab">
+                    <!-- Table of Contents content here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

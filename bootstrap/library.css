@@ -1,9 +1,6 @@
-body{
-    font-family: 'Poppins';
-}
-
 .mainlogo{
     width: 80px;
+    height: 80px;
 }
 
 .user{
@@ -22,7 +19,7 @@ body{
     border: 1px solid #000000;
     border-radius: 90px;
     padding: 16px 40px;
-    width: 2000px;
+    width: 1100px;
     height: 56px;
 }
 
@@ -46,13 +43,19 @@ body{
 }
 
 
-.button{
+.click{
     text-decoration: none;
     background: #ff0500;
     color: white;
     padding:0px 8px;
     border-radius: 30px;
     margin-bottom: 16px;
+}
+
+.button{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
 }
 
 .picture{

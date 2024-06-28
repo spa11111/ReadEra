@@ -1,0 +1,27 @@
+
+.about{
+    display: flex;
+    align-items: center;
+    padding: 60px 60px;
+    padding-bottom: 30px;
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.button{
+    margin-right: 30px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    background-color: white;
+    color: black;
+    padding: 2px 25px;
+    border-radius: 30px;
+    display: flex; 
+    justify-content: center;
+}

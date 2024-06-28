@@ -1,5 +1,5 @@
 .box{
-    margin-top: 165px;
+    margin-top: 295px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +7,7 @@
     border: 1px solid #000000;
     border-radius: 90px;
     padding: 53px 159px;
-    width: 610px;
+    width: 632px;
 }
 .sub{
     border: 1px solid #000000;
