@@ -1,0 +1,79 @@
+.mainlogo{
+    width: 80px;
+    height: 80px;
+}
+
+.user{
+    width: 80px;
+    height: 80px;
+}
+
+.flexbox{
+    display:flex;
+    margin: 60px;
+    align-items: center;
+    gap: 60px;
+}
+
+.textbox{
+    border: 1px solid #000000;
+    border-radius: 90px;
+    padding: 16px 40px;
+    width: 1100px;
+    height: 56px;
+}
+
+.book{
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1px solid #000000;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.button{
+    text-decoration: none;
+    font-weight: 600;
+    border: #000000;
+    background-color: #000000;
+    color: white;
+    padding: 7px 87px;
+    border-radius: 90px;
+}
+
+.info{}
+
+.show{
+    display: flex;
+    gap: 15px;
+}
+
+.show img{
+    height: 20px;
+    width: 20px;
+}
+
+.read{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #62729D;
+}
+
+.book-describe{
+    margin: 60px;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.add{
+    text-decoration: none;
+    border-radius: 90px;
+    padding: 2px 25px;
+    color: white;
+}

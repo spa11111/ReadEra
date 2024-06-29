@@ -1,37 +1,40 @@
-.mainlogo{
-    width: 80px;
-    height: 80px;
-}
-
-.user{
-    width: 80px;
-    height: 80px;
-}
-
 .flexbox{
-    display:flex;
+    display: flex;
     margin: 60px;
     align-items: center;
-    gap: 60px;
+    justify-content: center;
+    gap: 40px;
 }
 
-.textbox{
+.textbox {
     border: 1px solid #000000;
     border-radius: 90px;
     padding: 16px 40px;
-    width: 1100px;
-    height: 56px;
-}
+    width: 100%;
+  }
 
 .book{
-    margin-left: 60px;
-    margin-right: 60px;
     border: 1px solid #000000;
-    padding: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
+      padding: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 0;
+}
+
+@media (max-width: 576px) {
+    .book {
+      flex-direction: column;
+    }
+    .show {
+      justify-content: center;
+    }
+  }
+
+.book img{
+    max-width: 300px;
 }
 
 .button{
@@ -40,11 +43,13 @@
     border: #000000;
     background-color: #000000;
     color: white;
-    padding: 7px 87px;
+    padding: 5px 30px;
     border-radius: 90px;
+    display: inline-block;
+      text-align: center;
 }
 
-.info{}
+
 
 .show{
     display: flex;
@@ -73,7 +78,10 @@
 
 .add{
     text-decoration: none;
-    border-radius: 90px;
-    padding: 2px 25px;
-    color: white;
+      border-radius: 90px;
+      padding: 5px 20px;
+      color: white;
+      margin-bottom: 10px;
+      display: inline-block;
+      text-align: center;
 }

@@ -12,42 +12,34 @@
 </head>
 
   <body style="font-family: Poppins;">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="flexbox">
-                <div class = "mainlogo">
-                    <img src = "images/logo.png" alt = "logo">
-                </div>
-    
-                <div>
-                    <input type="text" class="textbox" placeholder="Search bar">
-                </div>
-    
-                <div class = "user">
-                    <img src = "images/user.png" alt = "logo">
-                </div>
-            </div>
+    <div class="flexbox py-3">
+        <div class="col-2 col-md-1 text-center">
+          <img src="images/logo.png" alt="logo">
         </div>
-
-        <div class="book">
-            <div>
-                <img src="images/short.png">
-            </div>
-
-            <div>
-                <div>
-                    <h3>Twisted Love</h3>
-                    <p>By Ana Huang</p>
-                    <div class="show">
-                        <img src="images/view.png">
-                        <p>20K</p>
-                        <img src="images/vote.png">
-                        <p>10K</p>
-                    </div>
-                    <a href = "#" class = "button">Start Reading</a>
-                </div>
-            </div>
+        <div class="col-8 col-md-10">
+          <input type="text" class="form-control textbox" placeholder="Search bar">
         </div>
+        <div class="col-2 col-md-1 text-center">
+          <img src="images/user.png" alt="user">
+        </div>
+      </div>
+
+      <div class="book">
+        <div class="text-center">
+          <img src="images/short.png" class="img-fluid" alt="Book Image">
+        </div>
+        <div>
+          <h3>Twisted Love</h3>
+          <p>By Ana Huang</p>
+          <div class="show">
+            <img src="images/view.png" alt="Views">
+            <p>20K</p>
+            <img src="images/vote.png" alt="Votes">
+            <p>10K</p>
+          </div>
+          <a href="#" class="button">Start Reading</a>
+        </div>
+      </div>
 
         <div class="row">
         <div class="col-md-9">
@@ -65,7 +57,7 @@
         </div>
         </div>
 
-        <div class="col-md-3" style="margin-top: 60px;">
+        <div class="col-md-3" style="margin-top: 60px; display: flex; justify-content: center;">
             <div>
                 <a href = "#" class = "add" style="background-color: #DD0000;">Mature</a>
                 <a href = "#" class = "add" style="background-color: #62729D;">Completed</a>

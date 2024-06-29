@@ -1,25 +1,33 @@
-
 .flexbox{
-    justify-content: center;
-    display:flex;
+    display: flex;
     margin: 60px;
     align-items: center;
-    gap: 60px;
+    justify-content: center;
+    gap: 40px;
 }
 
-.textbox{
+.navtext {
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+
+
+.textbox {
     border: 1px solid #000000;
     border-radius: 90px;
     padding: 16px 40px;
-    padding-right: 880px;
-}
+    width: 100%;
+  }
 
 .about{
     display: flex;
     border: 1px solid #000000;
     align-items: center;
     padding: 15px 60px;
-    gap: 15px;
+
 }
 
 .story{
@@ -30,13 +38,20 @@
     margin-bottom: 30px;
 }
 
-.button{
-    margin-top: 30px;
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    padding: 10px 298px;
-    border-radius: 30px;
-    display: flex; 
-    justify-content: center;
-}
+.button {
+        display: block;
+        margin: 30px auto;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 10px 50px;
+        border-radius: 30px;
+        text-align: center;
+      }
+
+      @media (max-width: 576px) {
+        .button {
+          width: 100%;
+          padding: 10px 0;
+        }
+      }
