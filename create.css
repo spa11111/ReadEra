@@ -6,24 +6,41 @@
     padding-bottom: 30px;
 }
 
-.button{
-    margin-right: 30px;
+.button {
     text-decoration: none;
-    border: 1px solid #000000;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #000000;
     background-color: white;
     color: black;
     padding: 2px 25px;
-    border-radius: 30px;
-    display: flex; 
-    justify-content: center;
-}
+  }
 
 
 .info{
     border: 1px solid #000000;
-    padding: 30px 30px;
+    padding: 30px;
 }
 
 .don{
     margin-bottom: 30px;
+    border: 1px solid #000000;
 }
+
+.opt{
+  text-decoration: none;
+  color: #000000;
+}
+
+@media (max-width: 576px) {
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .button {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
