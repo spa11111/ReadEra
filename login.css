@@ -6,7 +6,8 @@ body {
 }
 
 .box {
-    border: 1px solid #000000;
+    background-color: #FAFAFA;
+    border: 1px solid #919191;
     padding: 60px 90px;
     border-radius: 60px;
     text-align: center;
@@ -21,8 +22,8 @@ body {
 
 .box input {
     margin-bottom: 15px;
-    background-color: #EFEFEF;
-    border: 1px solid #000000;
+    background-color: #F7F5F4;
+    border: 1px solid #919191;
 }
 
 .box .btn {

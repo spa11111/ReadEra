@@ -15,13 +15,13 @@
   }
 
 
-.textbox {
-    border: 1px solid #000000;
-    border-radius: 90px;
-    padding: 16px 40px;
-    width: 100%;
-  }
-
+  .textbox {
+    background-color: none;
+      border: 1px solid #000000;
+      border-radius: 90px;
+      padding: 10px 40px;
+      width: 80%;
+    }
 .about{
     display: flex;
     border: 1px solid #000000;

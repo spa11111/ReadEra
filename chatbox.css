@@ -16,18 +16,19 @@
   }
 
 
-.textbox {
-    border: 1px solid #000000;
-    border-radius: 90px;
-    padding: 16px 40px;
-    width: 100%;
-  }
+  .textbox {
+    background-color: none;
+      border: 1px solid #000000;
+      border-radius: 90px;
+      padding: 10px 40px;
+      width: 80%;
+    }
 
   .click {
     text-decoration: none;
     background: #FF500A;
     color: white;
-    padding: 0px 8px;
+    padding: 2px 15px;
     border-radius: 30px;
   }
 
@@ -41,16 +42,12 @@
     margin: 60px;
   }
 
-  .card {
-    border: 1px solid #000000;
-  }
-
   .create{
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 14px 28px;
-    background-color: #F1FFFF;
+    background-color: #DEE3F0;
     border: 1px solid #000000;
     border-radius: 90px;
     text-decoration: none;

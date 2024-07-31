@@ -25,3 +25,9 @@
     display: flex; 
     justify-content: center;
 }
+
+.form-control{
+    background-color: #F7F5F4;
+    border: none;
+    height:fit-content;
+}

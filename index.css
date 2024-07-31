@@ -7,6 +7,20 @@
     gap: 40px;
 }
 
+.row{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.view{
+      padding: 2px 30px;
+      color: white;
+      border-radius: 30px;
+      background-color: #000000;
+      text-decoration: none;
+}
+
 .navtext {
     margin: 60px;
     display: flex;
@@ -17,10 +31,11 @@
 
 
 .textbox {
+  background-color: none;
     border: 1px solid #000000;
     border-radius: 90px;
-    padding: 16px 40px;
-    width: 100%;
+    padding: 10px 40px;
+    width: 80%;
   }
 
   .click {
