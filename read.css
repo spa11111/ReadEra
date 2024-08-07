@@ -3,7 +3,7 @@
     margin: 60px;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 10px;
 }
 
 .navtext {
@@ -38,6 +38,124 @@
     margin-bottom: 30px;
 }
 
+.dropdown-menu{
+  position: relative;
+}
+
+.comment{
+  display: block;
+        margin: 30px auto;
+        text-decoration: none;
+        background-color: white
+        color: black;
+        padding: 10px 50px;
+        border-radius: 5px;
+        width:content;
+}
+
+
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* .add{
+  display: flex;
+  gap: 2px;
+}
+
+.add, .drop-down li{
+  list-style: none;
+  height: 100%;
+  padding: 1px 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+
+.drop-down{
+  position: absolute;
+  padding: 1px 3px;
+  background: currentColor;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.add:hover{
+  background: #000000;
+  color: white;
+  border-radius: 5px;
+}
+
+.dropdown-icon{
+  font-size: 12px;
+  position: relative;
+}
+
+.drop-down li:hover{
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+} */
+
+
+
+.footer {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.footer-top, .footer-bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.footer-item {
+  margin: 10px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-top, .footer-bottom {
+    flex-direction: column;
+  }
+  
+  .footer-item {
+    margin: 5px 0;
+  }
+}
 .button {
         display: block;
         margin: 30px auto;
