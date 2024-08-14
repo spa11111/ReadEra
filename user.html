@@ -12,6 +12,109 @@
 </head>
 
 <body style="font-family: Poppins; background-color: #F7F5F4;">
+  <style>
+    .profile{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.follow{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.you{
+    font-size: 24px;
+}
+
+.about{
+    border: 1px solid #000000;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.describe{
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.story{
+    margin-top: 30px;
+}
+
+.story img{
+    max-width: 100px;
+}
+
+.books {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.in{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: black; 
+    border: 1px solid #000000;
+    text-decoration: none; 
+    padding: 2px 30px; 
+    border-radius: 30px;
+}
+
+.in:hover{
+    color: white; 
+    background-color: black; 
+    text-decoration: none; 
+    padding: 2px 30px; 
+    border-radius: 30px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .footer-top, .footer-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+  
+  .footer-item {
+    margin: 10px 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-top, .footer-bottom {
+      flex-direction: column;
+    }
+    
+    .footer-item {
+      margin: 5px 0;
+    }
+  }
+
+@media (max-width: 767.98px) {
+    .follow {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+  </style>
+
     <div class="container">
       <div class="profile">
         <img src="images/profile.png" class="img-fluid">
@@ -63,19 +166,20 @@
     </div>
 
     <hr style="margin-top: 60px; border: 4px solid #000000;">
-        <footer class="footer">
-          <div class="footer-top">
-            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Contact us</a>
-            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">About us</a>
-          </div>
-          <div class="footer-bottom">
-            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;" class="footer-item">Terms</a>
-            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Privacy</a>
-            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;" class="footer-item">Accessibility</a>
-            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Get the app</a>
-            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Language</a>
-            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Writers</a>
-          </div>
-        </footer>
+    <footer class="footer">
+      <div class="footer-top">
+        <a href="contact.html" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Contact us</a>
+        <a href="index.html" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">About us</a>
+      </div>
+      <div class="footer-bottom">
+        <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;" class="footer-item">Terms</a>
+        <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Privacy</a>
+        <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;" class="footer-item">Accessibility</a>
+        <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Get the app</a>
+        <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Language</a>
+        <a href="author.html" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Writers</a>
+      </div>
+    </footer>
+  </body>
 </body>
         

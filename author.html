@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    
+    .flexbox{
+        display: flex;
+        margin: 60px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .navtext {
+        margin: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+      }
+    
+      .button {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+  }
+    
+    .textbox {
+      background-color: none;
+        border: 1px solid #000000;
+        border-radius: 90px;
+        padding: 10px 40px;
+        width: 80%;
+      }
+
+    
+      .bn{
+        background-color: #D25128;
+        padding: 5px 30px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+    
+  
+    
+      .footer {
+        background-color: #f5f5f5;
+        text-align: center;
+      }
+      
+      .footer-top, .footer-bottom {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+      }
+      
+      .footer-item {
+        margin: 10px 20px;
+        color: #333;
+        text-decoration: none;
+      }
+
+      .bordered-text {
+            font-weight: 600;
+            color: transparent;
+            -webkit-text-stroke: 2px #D25128; /* The color and width of the border */
+            text-align: center;
+        }
+
+        .dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+      
+      @media (max-width: 768px) {
+        .footer-top, .footer-bottom {
+          flex-direction: column;
+        }
+        
+        .footer-item {
+          margin: 5px 0;
+        }
+      }
+    
+      </style>
+
+<body style="font-family: Poppins; background-color: #F7F5F4;">
+  <div class="flexbox">
+    <div class="col-2 col-md-1 text-center">
+      <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    </div>
+    <div class="col-8 col-md-10" style="display: flex; justify-content: center; align-items: center;">
+      <input type="text" class="form-control textbox" placeholder="Search bar">
+    </div>
+    <a href="login.html" class="bn">Login</a>
+  </div>
+
+  <div class="col-12">
+    <div class="navtext mb-4">
+      <a href="login.html" class="button">Home</a>
+      <a href="login.html" class="button">Chatbox</a>
+      <a href="login.html" class="button">Library</a>
+      <a href="login.html" class="button">Notification</a>
+      <a href="#" class="button">Help</a>
+    </div>
+  </div>
+
+  <div class="container" style="display: flex; flex-direction: column;">
+    <div class="start" style="display: flex; justify-content: center; font-weight: 600; color: #D25128; margin-top: 60px;  text-align: center;">
+    <h1>Start your future creations with Tiara!</h1>
+    </div>
+
+    <div class="bordered-text" style="display: flex; justify-content: center;margin-top: 60px;">
+      <h1>Why write?</h1>
+      </div>
+
+    <div class="row" style="margin-top: 60px;">
+      <div class="col-4" style="display: flex; flex-direction: column;align-items: center;">
+        <h5>Cultivate your</h5>
+        <h5>fanbase</h5>
+        <p>We empower diverse voices and stories </p>
+        <p>all over the world, helping you build an</p>
+        <p>engaged community of readers.</p>
+      </div>
+
+      <div class="col-4" style="display: flex; flex-direction: column; align-items: center;">
+        <h5>Champion your</h5>
+        <h5>stories</h5>
+        <p>We champion untold stories</p>
+        <p>to the publishing and</p>
+        <p>entertainment industries</p>
+      </div>
+
+      <div class="col-4" style="display: flex; flex-direction: column;align-items: center;">
+        <h5>See your writing</h5>
+        <h5>craft get rewarded</h5>
+        <p>When you share your stories, you will</p>
+        <p>find a community who shares your</p>
+        <p>unique worldview</p>
+      </div>
+    </div>
+
+    <hr style="margin-top: 60px;border: 4px solid #7C7C7C;">
+    <div class="row">
+      <div class="col-2" style="display: flex; flex-direction: column;">
+        <h5>CREATORS</h5>
+        <h5>BLOGS</h5>
+      </div>
+
+      <div class="col-5" style="display: flex; flex-direction: column;align-items: center;">
+        <img src="images/c.png">
+        <p>Oct 9, 2023</p>
+        <p>Cliffhangers: How to keep</p>
+        <p>readers hooked</p>
+      </div>
+
+      <div class="col-5" style="display: flex; flex-direction: column;align-items: center;">
+        <img src="images/h.png">
+        <p>Sep 30, 2023</p>
+        <p>How to write great</p>
+        <p>paranormal stories</p>
+      </div>
+    </div>
+
+    <hr style="margin-top: 60px;border: 4px solid #7C7C7C;">
+    <div class="row">
+      <div class="col-2" style="display: flex; flex-direction: column;">
+        <h5>CREATORS</h5>
+        <h5>FAQ</h5>
+      </div>
+
+      <div class="col-10" style="display: flex; flex-direction: column;">
+        <div class="query" style="display:flex; flex-direction: row; background-color: #EEE5DF; border-radius: 5px; padding: 10px 20px; margin-bottom: 30px;">
+          <div class="col-11">
+          <p>How can I prepare a story?</p>
+          </div>
+          <div class="col-1">
+          <img src="images/option.png">
+          </div>
+        </div>
+
+        <div class="query" style="display:flex; flex-direction: row; background-color: #EEE5DF; border-radius: 5px; padding: 10px 20px; margin-bottom: 30px;">
+          <div class="col-11">
+          <p>How do I engage myself with the community?</p>
+          </div>
+          <div class="col-1">
+            <ul class="nav">
+              <li class="dropdown">
+            <a href="#" class="dropbtn"><img src="images/option.png"></a>
+            <div class="dropdown-content">
+              <p>Social activity is the key to success. Making friends is one of the best ways to gain readership because friends read friends stories. It also helps you forget connections that can be beneficial in a business sense.</p>
+          </div>
+        </li>
+      </ul>
+          </div>
+        </div>
+
+        <div class="query" style="display:flex; flex-direction: row; background-color: #EEE5DF; border-radius: 5px; padding: 10px 20px; margin-bottom: 30px;">
+          <div class="col-11">
+          <p>How can I gain a user base for myself?</p>
+          </div>
+          <div class="col-1">
+          <img src="images/option.png">
+          </div>
+        </div>
+
+        <div class="query" style="display:flex; flex-direction: row; background-color: #EEE5DF; border-radius: 5px; padding: 10px 20px; margin-bottom: 30px;">
+          <div class="col-11">
+          <p>What does and doesnot copyright protect?</p>
+          </div>
+          <div class="col-1">
+          <img src="images/option.png">
+          </div>
+        </div>
+
+        <div class="query" style="display:flex; flex-direction: row; background-color: #EEE5DF; border-radius: 5px; padding: 10px 20px; margin-bottom: 30px;">
+          <div class="col-11">
+          <p>How do I report to copyright infringement?</p>
+          </div>
+          <div class="col-1">
+          <img src="images/option.png">
+          </div>
+        </div>
+
+        <p>For more ideas, learn <a href="#" style="color: #D25128;">how to promote your stories effectively</a></p>
+        </div>
+        </div>
+        </div>
+
+
+        <hr style="margin-top: 60px; border: 4px solid #000000;">
+        <footer class="footer">
+          <div class="footer-top">
+            <a href="contact.html" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Contact us</a>
+            <a href="index.html" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">About us</a>
+          </div>
+          <div class="footer-bottom">
+            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;" class="footer-item">Terms</a>
+            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Privacy</a>
+            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;" class="footer-item">Accessibility</a>
+            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Get the app</a>
+            <a href="#" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Language</a>
+            <a href="author.html" style="text-decoration: none; color: #000000; font-size: 14px;"  class="footer-item">Writers</a>
+          </div>
+        </footer>
+</body>
