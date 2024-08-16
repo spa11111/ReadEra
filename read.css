@@ -20,7 +20,7 @@
       border: 1px solid #000000;
       border-radius: 90px;
       padding: 10px 40px;
-      width: 80%;
+      width: 60%;
     }
 .about{
     display: flex;
@@ -84,6 +84,14 @@
   display: block;
 }
 
+.bn{
+  background-color: #D25128;
+  padding: 5px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
 /* .add{
   display: flex;
   gap: 2px;
